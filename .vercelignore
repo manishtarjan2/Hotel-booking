@@ -4,3 +4,17 @@ node_modules
 .env.*.local
 *.log
 .DS_Store
+.gitignore
+.vercel
+.next
+out
+.idea
+*.swp
+*.swo
+*~
+.vscode
+.eslintcache
+frontend/node_modules
+frontend/build
+backend/node_modules
+.env
