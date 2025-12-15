@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm install && cd frontend && npm install && npm run build && cd ../backend && npm install",
+  "outputDirectory": "frontend/build",
+  "env": {
+    "MONGODB_URI": "@mongodb_uri",
+    "PORT": "5000"
+  }
+}
